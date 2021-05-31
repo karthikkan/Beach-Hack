@@ -1,0 +1,168 @@
+title
+    Imit
+plat
+    devfolio
+gold
+    dev-partners
+    litebox
+
+out reach
+    csi
+    iedc
+    ieee
+    ksum
+
+coSponsors
+    taskade
+    jetbra
+    voice
+    sashedo
+
+powered by
+    in4nation
+    ieee
+    csi
+    acm
+    
+
+
+
+    .section-title {
+    margin: 50px 0;
+    font-size: 3rem !important;
+    text-align: center;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.2;
+	cursor: default;
+	box-sizing: border-box;
+}
+.sponsors .cont .tier-title-wrapper {
+    margin: 50px 0 40px 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+	flex-direction: column;
+	
+}
+.sponsors .cont .tier-title-wrapper .tier-title {
+    position: relative;
+    padding-top: 15px !important;
+    margin: 0;
+    -webkit-transform: translate(0%, 50%);
+    transform: translate(0%, 50%);
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    padding: 10px 30px;
+        padding-top: 10px;
+    background-color: #000;
+    border-radius: 500px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+	font-family: 'Josefin Sans', sans-serif;
+	cursor: default;
+}
+
+.sponsors .cont .row {
+	cursor: default;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+<section id="sponsors" class="sponsors page-section dark-mode">
+
+
+
+                
+				<h2 class="section-title">Sponsored By</h2>
+				<div class="container cont">
+
+                    <div class="tier-title-wrapper">
+						<p class="tier-title">Title</p>
+						<div class="line"></div>
+                    </div>
+                    
+
+					<div class="tier-title-wrapper">
+						<p class="tier-title">Platinum</p>
+						<div class="line"></div>
+					</div>
+					<div class="row">
+						<div  class="col-md-auto" >
+							<a href="https://devfolio.co/" target="_blank" >
+								<img src="sponsors/devvv.png" alt=""  height="200"/>
+							</a>
+						</div>
+					</div>
+
+					<!-- GOLD -->
+					<div class="tier-title-wrapper">
+						<p class="tier-title">Gold</p>
+						<div class="line"></div>
+					</div>
+
+					<div class="row">
+						<div class="col-1-of-3">
+							<a href="https://matic.network/" target="_blank">
+								<img src="sponsors/matic.png" alt="" height="100"/>
+							</a>
+						</div>
+						<div class="col-1-of-3">
+							<a href="https://fold.money/" target="_blank" >
+								<img id="fold" src="sponsors/portis.png" height="100" alt="" />
+							</a>
+						</div>
+						<div class="col-1-of-3">
+							<a href="https://tezos.com/" target="_blank">
+								<img id="portis" src="sponsors/tezoz.png" alt="" height="100"/>
+							</a>
+                        </div>
+
+                    </div>
+                        <div class="row">
+                            <div class="col-1-of-1">
+                                <a href="" target="_blank">
+                                    <img src="sponsors/logo.png" alt="" height="150"/>
+                                </a>
+                            </div>
+
+
+                        
+                       
+						<!-- <div class="col-md-4">
+							<a href="https://tezos.com/" target="_blank">
+								<img id="" src="assets/images/sponsors/tezos.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="https://www.jetbrains.com/" target="_blank">
+								<img id="jetbrains" src="assets/images/sponsors/jetbrains.png" alt="" />
+							</a>
+						</div> -->
+					
+					</div>
+
+					<!-- SILVER -->
+					
+			</section>

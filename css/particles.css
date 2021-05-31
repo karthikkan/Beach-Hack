@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+.heading h1 {
+    color: limegreen;
+    font-size: 70px;
+}
+.heading h3 {
+    color: wheat;
+    font-size: 20px;
+}
+#particles-js {
+    background: rgb(255, 255, 255);
+}
+
+#particle1 {
+    background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182));
+    position: relative;
+    width: 96%;
+    z-index: -1;
+}
+
+#particle2 {
+    background-color: #ffffff;
+    position: relative;
+    height: 10%;
+    width: 96%;
+    z-index: -1;
+}
+
+#snow {
+    /* background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182)); */
+    background-color: rgba(161, 6, 6, 0);
+    z-index: -1;
+    /* -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg); */
+    /* margin-top: -10rem; */
+}
+
+#snow2 {
+    background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182));
+    margin-top: -10rem;
+}
+
+#box {
+    position: relative;
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+    top: 275%;
+    left: 10%;
+}
+
+#box2 {
+    position: relative;
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+    top: 735%;
+    left: 13%;
+    width: 100%;
+}
